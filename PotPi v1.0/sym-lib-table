@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name potpi_v1.0_keeb-rescue)(type Legacy)(uri ${KIPRJMOD}/potpi_v1.0_keeb-rescue.lib)(options "")(descr ""))
+)
