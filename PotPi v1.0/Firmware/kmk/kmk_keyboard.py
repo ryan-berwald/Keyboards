@@ -56,13 +56,13 @@ class KMKKeyboard:
     enableEncoder = False
     encoders = None
 
-    # slide pot config
-    enableSliders = False
-    sliders = None
-
     # oled config
     enableOled = False
     oledDisp = None
+
+    #slider config
+    enableSlider = False
+    sliders = None
 
     def __repr__(self):
         return (
@@ -329,15 +329,13 @@ class KMKKeyboard:
                 for x in range(len(self.encoders)):
                     updateEnc(self.encoders[x], self._state.active_layers[len(self._state.active_layers)-1])
 
-            if self.enableSliders:
-                for x in range(len(self.sliders)):
-                    print(self.sliders[x])
-
             # oled display
             if(self.enableOled):
                 if(self._state.active_layers[0] != prevLayer):
                     self.oledDisp.updateOLED(self._state.active_layers[0] + 1)
                     prevLayer = self._state.active_layers[0]
 
-
-
+            #sliders
+            if(self.enableSlider == True):
+                for x in self.sliders:
+                    print(x.getValue())
