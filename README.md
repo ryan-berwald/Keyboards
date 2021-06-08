@@ -1,11 +1,8 @@
 <h1 align="center">Welcome to PotPi MacroPad 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1-blue.svg?cacheSeconds=2592000" />
-  <a href="#" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
-  </a>
   <a href="https://twitter.com/ryan\_berwald" target="_blank">
-    <img alt="Twitter: ryan\_berwald" src="https://img.shields.io/twitter/follow/ryan\_berwald.svg?style=social" />
+    <img alt="Twitter: ryan_berwald" src="https://img.shields.io/twitter/follow/ryan_berwald.svg?style=social" />
   </a>
 </p>
 
